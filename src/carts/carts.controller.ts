@@ -14,7 +14,6 @@ import {
   ApiBearerAuth,
   ApiOperation,
   ApiResponse,
-  ApiSecurity,
   ApiTags,
 } from '@nestjs/swagger';
 import { Roles } from '../auth/roles-auth.decorator';

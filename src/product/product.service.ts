@@ -39,7 +39,6 @@ export class ProductService {
       where: { id },
     });
 
-    console.log(deleteProduct);
     return deleteProduct;
   }
 }
